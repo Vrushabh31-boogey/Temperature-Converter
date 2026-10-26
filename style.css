@@ -1,0 +1,54 @@
+body {
+    background-color: aquamarine;
+}
+
+.main {
+    border: 0px solid black;
+    margin: 16% 20% 2% 20%;
+    padding: 20px;
+    box-shadow: 8px 5px 50px 18px gray;
+    background-color: #57C7BC
+}
+
+.main h1 {
+    text-align: center;
+    color:rgb(225, 230, 230);
+    font-size: 3em;
+}
+
+.main .content {
+    text-align: center;
+    color: rgb(226, 232, 232);
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.content input {
+    width: 100%;
+    max-width: 350px;
+    height: 45px;
+    padding: 10px 15px;
+
+    background-color: #ffffff;
+    color: #222222;
+
+    font-size: 16px;
+    border: 2px solid #d1d5db;
+    border-radius: 10px;
+
+    outline: none;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease;
+}
+
+.content input:focus {
+    border-color: #008cff;
+    box-shadow: 0 0 8px rgba(0, 140, 255, 0.3);
+}
+
+/* Placeholder text */
+.content input::placeholder {
+    color: #999999;
+    font-size: 14px;
+}
